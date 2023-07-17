@@ -27,7 +27,7 @@
 		</div>
 	</div>
 	<div class="box-switch">
-		<div class="switch-label">Warning</div>
+		<div class="switch-label label-left-margin">Warning</div>
 		<div class="switch-box warning" class:selected={isWarningSelected} on:click={toggleWarning}>
 			<!-- You can add an icon or any other visual indication inside this box if you want -->
 		</div>
@@ -38,7 +38,7 @@
 		>
 			<!-- You can add an icon or any other visual indication inside this box if you want -->
 		</div>
-		<div class="switch-label">Wallet Block</div>
+		<div class="switch-label label-right-margin">Wallet Block</div>
 	</div>
 </div>
 
@@ -86,6 +86,14 @@
 		padding: 0.5rem;
 		margin-bottom: 1rem; /* Increase vertical space between the description and the box-switch section */
 	}
+
+  .label-left-margin{
+    margin-right: .5rem;
+  }
+
+  .label-right-margin {
+  margin-left: 3.5rem; /* Adjust the margin as needed to move it to the desired position */
+}
 
 	.switch-label {
 		font-size: 1rem;
