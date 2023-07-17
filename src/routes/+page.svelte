@@ -90,13 +90,13 @@
   .update-message {
     font-size: 1rem;
     margin-top: .5rem;
-    margin-right: 2rem;
+    margin-right: 3.8rem;
     color: #444;
   }
 
   .description {
     font-size: 1.2rem;
-    margin-bottom: 1rem; /* Adjust the spacing between the text and the container's bottom line */
+    margin-bottom: 0rem; /* Adjust the spacing between the text and the container's bottom line */
     line-height: 1.6;
     color: #444;
   }
